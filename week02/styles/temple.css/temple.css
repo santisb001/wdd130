@@ -1,39 +1,57 @@
-.paragraph {
-    max-width: 400px;
-    margin: 10px;
+main {
+    margin: 0 auto;
+    width: 400px;
+}
+
+section {
+    max-width: 100%;
+    margin: 20px 0;
     border: 1px solid rgb(0, 0, 0, .1);
     padding: 10px;
     background-color: rgb(204, 204, 204);
     color: rgba(1, 1, 1, 1);
-    text-align: left;
+}
+
+section p {
+    margin: 10px;
 }
 
 img {
     float: center;
-    margin: 0 0 10px 15px;
+    margin: 10px;
     padding: 0;
-    width: 500px;
+    width: 100%;
     height: auto;
     box-shadow: 0 0 30px gray;
 }
 
-.Footer {
+footer {
     max-width: auto;
     margin: 10px;
-    border: 1px solid rgb(1, 1, 1, 1);
     padding: 10px;
-    background-color: rgba(1, 1, 1, 1);
+    background-color: rgb(33, 33, 33);
     color: #fff;
     text-align: center;
 }
 
-.header {
+header {
     max-width: auto;
     margin: 10px;
-    border: 1px solid rgb(1, 1, 1, 1);
     padding: 10px;
-    background-color: rgba(1, 1, 1, 1);
+    background-color: rgb(33, 33, 33);
     color: #fff;
     text-align: center;
-    size: 74px;
+    font-size: 1.3rem;
+}
+
+h1 {
+    max-width: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h2 {
+    border-bottom: 1px solid #222;
 }
