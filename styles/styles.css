@@ -13,18 +13,44 @@ h1 {
     color: darkblue;
 }
 
-img {
+h2 {
+    border-bottom: 1px solid #fff;
+}
+
+p {
+    padding: 0px;
+}
+
+main {
+    width: 550px;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 20px;
 }
 
-p {
-    padding: 10px;
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    padding: 1rem;
+    background-color: #222277;
+    color: #fff;
 }
 
-main {
-    width: 800px;
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin: 20px;
+    border-top: 1px solid #111;
+    width: 98%;
+    text-align: center;
 }
