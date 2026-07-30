@@ -26,20 +26,6 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
-}
-
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
 /*--------------HEADER------------------*/
 header {
     background-color: var(--third-color);
@@ -53,6 +39,67 @@ header a {
 /*--------------MAIN------------------*/
 main {
     background-color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: var(--primary-color);
+    color: #fff;
+    /* white text – make sure there is enough contrast with the background-color */
+}
+
+.hero article p {
+    margin: 50px;
+    border: 1px solid var(--fourth-color);
+    background-color: var(--fourth-color);
+    padding: 20px;
+    float: right;
+    opacity: 0.9;
+}
+
+.hero article {
+    position: absolute;
+    text-align: left;
+    padding: 16px;
+}
+
+.hero article img {
+    float: left;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero section p {
+    margin: 50px;
+    border: 1px solid var(--fourth-color);
+    background-color: var(--fourth-color);
+    padding: 20px;
+    float: right;
+    opacity: 0.9;
 }
 
 /*--------------FOOTER------------------*/
