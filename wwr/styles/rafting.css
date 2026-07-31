@@ -9,7 +9,6 @@
     --secondary-color: darkblue;
     --third-color: #aaf;
     --fourth-color: #e9c46a;
-    --fifth-color: #111;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -27,10 +26,15 @@ footer {
     margin: 0 auto;
 }
 
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
 /*--------------HEADER------------------*/
 header {
     background-color: var(--third-color);
-    color: var(#fff);
+    color: #fff;
 }
 
 header a {
@@ -80,7 +84,7 @@ article {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     width: 100px;
     position: relative;
     display: inline-block;
