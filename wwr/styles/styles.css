@@ -9,6 +9,7 @@
     --secondary-color: darkblue;
     --third-color: #aaf;
     --fourth-color: #e9c46a;
+    --fifth-color: #111;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -65,60 +66,101 @@ article {
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-.hero article p {
-    margin: 50px;
+.hero article {
+    position: absolute;
+    text-align: left;
+    padding: 16px;
+    margin-top: 370px;
     border: 1px solid var(--fourth-color);
     background-color: var(--fourth-color);
     padding: 20px;
     float: right;
     opacity: 0.9;
-}
-
-.hero article {
-    position: absolute;
-    text-align: left;
-    padding: 16px;
+    width: 810px;
 }
 
 .hero article img {
     float: left;
-    width: 150px;
-    margin-top: 30px;
+    width: 100px;
     position: relative;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 .hero section {
-    position: inherit;
+    position: relative;
+    text-align: left;
+    padding: 16px;
+    /*border: 1px solid var(--fourth-color);
+    background-color: var(--fourth-color);*/
+    float: right;
+    opacity: 0.9;
+    width: 840px;
+    background-color: #fff;
 }
 
 .hero section p {
+    margin: 10px;
+    /*border: 1px solid #111;*/
+}
+
+.hero section h2 {
+    background-color: #aaf;
+    /*border: 1px solid #111;*/
+    width: 840px;
+    text-align: center;
+    padding: 16px;
+}
+
+.history {
+    position: absolute;
+    margin-top: 600px;
+    text-align: center;
+    background-color: var(--third-color);
+
+}
+
+.adventure {
+    position: inherit;
+    margin-top: 0px;
+}
+
+/*.hero section.adventure h2 {
+    position: absolute;
+    margin-top: 500px;
+    color: var(--third-color);
+}*/
+
+/*.hero section p {
     margin: 50px;
     border: 1px solid var(--fourth-color);
     background-color: var(--fourth-color);
     padding: 20px;
     float: right;
     opacity: 0.9;
-}
+}*/
 
 /*--------------FOOTER------------------*/
 footer {
     background-color: var(--third-color);
     color: var(--secondary-color);
-    padding: 5px;
-    margin-bottom: auto 0;
+    margin-top: 1000px;
+    position: absolute;
 
 }
 
 footer img {
-    width: 35px;
+    width: 50px;
     height: auto;
-    padding: 5px 3px;
+    padding: 3px;
+    margin-bottom: 30px;
 }
 
 .socialmedia a {
