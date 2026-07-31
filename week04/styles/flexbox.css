@@ -7,7 +7,7 @@ body {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 .flex-item {
@@ -15,7 +15,7 @@ body {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 0.5rem;
-    background-color: #bbb;
+    background-color: #aaf;
     color: #333;
 }
 
