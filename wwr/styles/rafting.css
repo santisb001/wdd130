@@ -120,7 +120,21 @@ article {
     width: 100%;
     height: auto;
 }
-
+.history {
+    position: relative;
+    text-align: left;
+    padding: 16px;
+    /*border: 1px solid var(--fourth-color);*/
+    background-color: var(--fourth-color);
+    opacity: 0.9;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
 section {
     position: relative;
     text-align: left;
