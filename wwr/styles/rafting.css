@@ -148,9 +148,6 @@ section h2 {
     width: 100%;
     text-align: center;
     padding: 16px;
-}
-
-section h2 {
     grid-column: 1 / -1;
 }
 
