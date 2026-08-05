@@ -38,6 +38,7 @@ header {
     color: #fff;
     display: grid;
     grid-template: 1fr/1fr 2fr;
+    /* justify-content: center; it doesn't work*/
 }
 
 header a {
@@ -62,9 +63,7 @@ header nav {
 }
 
 /*--------------MAIN------------------*/
-main {
-    background-color: var(--primary-color);
-}
+main {}
 
 nav,
 p,
@@ -76,6 +75,10 @@ article {
 
 .hero {
     position: relative;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    background-color: var(--primary-color);
+    justify-content: center;
 }
 
 .hero h1 {
@@ -87,7 +90,8 @@ article {
     opacity: 0.9;
     background-color: var(--primary-color);
     color: #fff;
-    /* white text – make sure there is enough contrast with the background-color */
+    /* white text – make sure there is enough contrast with the background-color 
+    There is enough*/
 }
 
 .hero article {
@@ -126,7 +130,6 @@ article {
     float: right;
     opacity: 0.9;
     width: 840px;
-    background-color: #fff;
 }
 
 .hero section p {
@@ -146,8 +149,8 @@ article {
     position: relative;
     margin-top: 600px;
     text-align: center;
-    background-color: var(--third-color);
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     /* grid-template: 1fr 1fr / 1fr 250px 1fr;*/
 
 }
@@ -155,11 +158,18 @@ article {
 .history img {
     width: 250px;
     height: auto;
+    position: relative;
 }
 
 .adventure {
-    position: inherit;
+    position: relative;
     margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    displ
 }
 
 /*.hero section.adventure h2 {
@@ -181,7 +191,6 @@ article {
 footer {
     background-color: var(--third-color);
     color: var(--secondary-color);
-    margin-top: 1000px;
     position: relative;
 
 }
