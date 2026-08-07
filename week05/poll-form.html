@@ -10,29 +10,41 @@
 
 <body>
     <header>
-        <form>
+        <h1>WSS 130 | HTML Form - User Poll</h1>
 
-
-        </form>
     </header>
     <main>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" required>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </form>
 
-        <label for="email">Email Address:</label>
-        <input type="email" name="usermail" id="usermail" required>
-        <label for="browser">Select your favorite browser</label>
-        <select name="browser" id="browser">
-            <option value="none">none selected</option>
-            <option value="Chrome">Chrome</option>
-            <option value="Safari">Safari</option>
-            <option value="Brave">Brave</option>
-        </select>
-        <label for="checkbox">Do you have a household pet?</label>
-        <input type="checkbox" name="checkbox" id="Pet">
+        <form>
+            <label for="email">Email Address:</label>
+            <input type="email" name="usermail" id="usermail" required>
+        </form>
+        <form>
+            <label for="browser">Select your favorite browser</label>
+            <select name="browser" id="browser">
+                <option value="none">none selected</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Safari">Safari</option>
+                <option value="Brave">Brave</option>
+            </select>
+        </form>
+        <form>
+            <label for="checkbox">Do you have a household pet?</label>
+            <input type="checkbox" name="pet" id="Pet">
+        </form>
+        <form>
+            <label for="textarea">List the places you have Lived</label>
+            <textarea name="feedback" id="feedback" rows="3"
+              placeholder="Buenos Aires Argentina, Manaus Brazil, La Paz Bolivia"></textarea>
+        </form>
+        <button type="submit">Submit Poll</button>
     </main>
     <footer>
-
+        ©️ 2026 | HTML Form - User Form Poll Activity | Santiago Sburlati
     </footer>
 </body>
 

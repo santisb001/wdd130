@@ -1,8 +1,8 @@
-main {
-    display: flex;
-    flex-direction: column;
+form {
+    display: grid;
+    grid-template: 1fr/1fr 2fr;
     padding: 16px;
     background-color: aqua;
-    max-width: 700px;
+    max-width: 1fr;
 
 }
