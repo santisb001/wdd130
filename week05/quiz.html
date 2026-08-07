@@ -10,32 +10,36 @@
 
 <body>
     <header>
-        <h1>WDD 130 | Code along W05: Quiz form</h1>
+
     </header>
 
-    <main>
+    <main class="box">
+        <h1>🌐 WDD 130 | Quiz form 🌐</h1>
         <form action="">
-            <div class="quiz-item">
+            <div class="quiz-item box">
                 <label for="q1">1. What type of language is Html?</label>
                 <input type="text" name="q1" id="q1">
             </div>
-            <div class="quiz-item">
+            <div class="quiz-item box">
                 <label for="q2">2. What does the CSS acronym stand for?</label>
                 <textarea name="q2" id="q2"></textarea>
             </div>
 
-            <div class="quiz-item">
-                <label for="q3">3. What type of language is Html?</label>
+            <div class="quiz-item box">
+                <label for="q3">3. Wich of the following is a valid CSS coment?</label>
                 <select name="q3" id="q3">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="z" selected disabled>Choose One...</option>
+                    <option value="a">A. /* this is a comment */</option>
+                    <option value="b">B. &lt; !-- This is a comment --&gt;</option>
+                    <option value="c">C. #This is a comment</option>
                 </select>
             </div>
-            <div class="quiz-item">
+            <div class="quiz-item box">
                 <label for="q4">4. How many types of headings are in Html?</label>
+                <code class="box">margin: 10px 5px 15px</code>
                 <input type="number" name="q4" id="q4">
             </div>
+            <button type="submit">Submit Quiz</button>
         </form>
 
     </main>
