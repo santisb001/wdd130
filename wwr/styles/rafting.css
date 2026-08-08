@@ -64,6 +64,18 @@ header nav {
 
 }
 
+.headcontact {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: var(--secondary-color);
+}
+
+.headcontact p {
+    padding: 0;
+    margin: .3rem;
+}
+
 /*--------------MAIN------------------*/
 
 nav,
@@ -71,6 +83,44 @@ p,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.paddle {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    margin: auto;
+}
+
+.paddle h1,
+article {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 139, 0.2);
+
+    color: var(--secondary-color);
+    margin: 0;
+
+}
+
+.paddle h1 {
+    padding-bottom: 0%;
+}
+
+.paddle article {
+    padding-bottom: 1rem;
+}
+
+.paddle img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero {
@@ -120,6 +170,7 @@ article {
     width: 100%;
     height: auto;
 }
+
 .history {
     position: relative;
     text-align: left;
@@ -135,6 +186,7 @@ article {
     align-items: center;
     margin: 0;
 }
+
 section {
     position: relative;
     text-align: left;
@@ -218,4 +270,106 @@ footer img {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.contactinfo {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.map {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 2rem 0 1rem;
+
+}
+
+/*-------Form------*/
+form {
+    margin: 0 auto;
+    padding: 0;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: start;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: .5rem;
+    min-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+code {
+    display: block;
+    background-color: rgb(223, 117, 18);
+    color: #fff;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 20%);
+    padding: 1rem;
+}
+
+.quiz-item {
+    border: none;
+}
+
+button {
+    background-color: brown;
+    color: #fff;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, 20%);
+}
+
+.namemail {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 12px;
+    align-items: center;
+}
+
+.namemail input[type="text"],
+.namemail input[type="email"],
+.namemail textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #aaa;
+}
+
+.radio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.radio label {
+    display: flex;
+    flex-direction: row-reverse;
+
+    gap: 8px;
+
+}
+
+.radio input[type="radio"] {
+    margin: 0;
+}
+
+.radio p {
+    order: 0;
 }
