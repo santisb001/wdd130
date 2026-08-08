@@ -5,11 +5,11 @@
 }
 
 :root {
-    --primary-color: #ffbb00;
-    --secondary-color: darkblue;
-    --third-color: #aaf;
-    --fifth-color: rgb(0, 27, 202);
-    --fourth-color: #e9ae6a;
+    --primary-color: #0755A0;
+    --secondary-color: #fff;
+    --third-color: #0099D8;
+    --fifth-color: #8DD8F2;
+    --fourth-color: #f5B51B;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +17,7 @@
 /*--------------BODY------------------*/
 body {
     font-family: var(--body-font);
-    color: var(--secondary-color);
+    color: darkblue;
 }
 
 header,
@@ -57,7 +57,7 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: var(--fifth-color);
+    background-color: var(--primary-color);
     padding: 10px;
     font-size: 1.2rem;
     list-style: none;
@@ -68,7 +68,7 @@ header nav {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .headcontact p {
@@ -176,7 +176,7 @@ article {
     text-align: left;
     padding: 16px;
     /*border: 1px solid var(--fourth-color);*/
-    background-color: var(--fourth-color);
+    background-color: var(--fifth-color);
     opacity: 0.9;
     width: 100%;
     display: grid;
@@ -185,6 +185,11 @@ article {
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+
+.history h2 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 section {
@@ -209,12 +214,13 @@ section p {
 }
 
 section h2 {
-    background-color: #aaf;
+    background-color: var(--primary-color);
     /*border: 1px solid #111;*/
     width: 100%;
     text-align: center;
     padding: 16px;
     grid-column: 1 / -1;
+    color: var(--secondary-color);
 }
 
 section img {
@@ -349,27 +355,27 @@ button {
     border: 1px solid #aaa;
 }
 
+textarea {
+    height: 4rem;
+    resize: vertical;
+}
+
 .radio {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 8px;
     align-items: center;
-    justify-content: space-evenly;
 
 }
 
 .radio label {
     display: flex;
-    flex-direction: row-reverse;
-
-    gap: 8px;
+    align-items: center;
 
 }
 
-.radio input[type="radio"] {
-    margin: 0;
-}
-
-.radio p {
-    order: 0;
+.checkbox1 label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
