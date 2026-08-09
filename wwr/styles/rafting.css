@@ -339,6 +339,10 @@ button {
     border: 1px solid rgba(0, 0, 0, 20%);
 }
 
+button:hover {
+    background-color: var(--fourth-color);
+}
+
 .namemail {
     display: grid;
     grid-template-columns: 2rem 1fr;
