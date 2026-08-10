@@ -158,7 +158,7 @@ header nav {
 .map,
 form {
     display: flex;
-    margin-top: 170px;
+    margin-top: 200px;
     position: relative;
     padding: 1rem;
     flex: 50%;
@@ -226,7 +226,7 @@ section h2 {
     text-align: left;
     padding: 16px;
     /*border: 1px solid var(--fourth-color);*/
-    background-color: var(--fifth-color);
+    background-color: var(--color-background);
     opacity: 0.9;
     width: 100%;
     display: grid;
@@ -266,4 +266,22 @@ footer img {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.hhhhhh {
+    position: relative;
+    background-color: var(--color-background);
+    align-self: auto;
+}
+
+.hhhhhh img {
+    padding: 16px;
+    width: 125px;
+    height: auto;
+}
+
+.move {
+    position: absolute;
+    width: 100%;
+    margin-top: 800px;
 }
