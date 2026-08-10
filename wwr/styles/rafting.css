@@ -378,7 +378,7 @@ textarea {
 
 }
 
-.checkbox1 label {
+input[type="checkbox"] {
     display: flex;
     align-items: center;
     gap: 6px;
