@@ -152,18 +152,39 @@ header nav {
 .contactinfo {
     display: flex;
     flex-direction: row;
-    padding: 0;
+    padding: 1rem;
     margin-top: 3rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
     position: absolute;
+    width: 100%;
 }
 
 .map,
 form {
-    margin-top: 200px;
+    display: flex;
+    margin-top: 170px;
     position: relative;
     padding: 1rem;
+    flex: 50%;
+}
+
+form {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: start;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: .5rem;
+    min-width: 300px;
+
+    display: block;
 }
 
 section {
