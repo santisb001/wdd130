@@ -101,6 +101,7 @@ header nav {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 .hero article {
@@ -123,6 +124,48 @@ header nav {
     margin-right: 10px;
 }
 
+.paddle {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 840px;
+    align-items: center;
+    background-color: var(--color-background);
+    opacity: 0.9;
+    color: var(--color-headings);
+}
+
+.paddle p {
+    margin: 0;
+}
+
+.paddle h1 {
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+
+    background-color: var(--color-background);
+    margin-bottom: 1rem;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    position: absolute;
+}
+
+.map,
+form {
+    margin-top: 200px;
+    position: relative;
+    padding: 1rem;
+}
+
 section {
     position: relative;
     text-align: left;
@@ -140,6 +183,15 @@ section img {
     padding: 16px;
     width: 250px;
     height: auto;
+}
+
+section h2 {
+    background-color: var(--color-headfoot);
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    grid-column: 1 / -1;
+    color: var(--color-text1);
 }
 
 .history {
@@ -169,6 +221,7 @@ footer {
     justify-content: end;
     color: var(--color-text1);
     background-color: var(--color-headfoot);
+    position: relative;
 }
 
 figure img {
