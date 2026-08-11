@@ -75,6 +75,24 @@ header nav {
 
 }
 
+.fffr {
+    display: flex;
+    flex-direction: row;
+}
+
+.homebanner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-width: 500px;
+
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
     display: flex;
     position: relative;
@@ -82,7 +100,8 @@ header nav {
     width: 840px;
 }
 
-.hero h1 {
+.hero h1,
+.homebanner h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -170,6 +189,14 @@ form {
     flex-direction: column;
     max-width: 400px;
     align-items: start;
+}
+
+.newform {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 1rem;
+
 }
 
 input,
