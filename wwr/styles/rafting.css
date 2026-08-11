@@ -46,7 +46,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--color-headings);
-    font-family:
+
 }
 
 header {
@@ -312,15 +312,41 @@ footer img {
 
 .homebanner {
     display: flex;
-    position: relative;
-    flex-direction: column;
-    min-width: 500px;
+    margin: 0;
+    height: auto;
+    width: 840px;
 
 }
 
-.homebanner h1 {
+.homebanner ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.homebanner li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.title h1 {
     text-align: center;
     color: var(--color-text1);
-    padding-top: 3rem;
+    padding: 1rem;
     background-color: transparent;
 }
+
+.text {
+    position: absolute;
+    text-align: center;
+    padding: 0 150px;
+    color: var(--color-text1);
+}
+
+.text h2 {
+    color: var(--color-text1);
+}
+
+https: //www.youtube.com/watch?v=XE0uQthmIuw
