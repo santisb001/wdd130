@@ -12,7 +12,10 @@
     --color-details: #e9dfcf;
     --color-details2: #c76b4b;
     --color-hover: #d31515;
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --heading-font: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -27,6 +30,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    font-family: var(--heading-font);
 }
 
 header,
@@ -42,6 +46,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--color-headings);
+    font-family:
 }
 
 header {
@@ -72,19 +77,6 @@ header nav {
     padding: 10px;
     font-size: 1.2rem;
     list-style: none;
-
-}
-
-.fffr {
-    display: flex;
-    flex-direction: row;
-}
-
-.homebanner {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    min-width: 500px;
 
 }
 
@@ -311,4 +303,24 @@ footer img {
     position: absolute;
     width: 100%;
     margin-top: 800px;
+}
+
+.fffr {
+    display: flex;
+    flex-direction: row;
+}
+
+.homebanner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-width: 500px;
+
+}
+
+.homebanner h1 {
+    text-align: center;
+    color: var(--color-text1);
+    padding-top: 3rem;
+    background-color: transparent;
 }
