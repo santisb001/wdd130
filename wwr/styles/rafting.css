@@ -395,13 +395,32 @@ footer img {
 
 .CTAction {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     margin: 0;
     padding: 1rem;
     width: 100%;
-
+    background-color: var(--color-headings);
 }
 
 .CTAction img {
-    width: 125px;
+    width: 400px;
+    padding: 5px;
+
+}
+
+.homecta {
+    text-align: center;
+    background-color: var(--color-headings);
+}
+
+.homecta a {
+    text-decoration: none;
+    color: var(--color-details);
+    padding: 1rem;
+}
+
+.newsmessage {
+    margin: 0%;
+    padding: 0%;
 }
