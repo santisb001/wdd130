@@ -351,7 +351,7 @@ footer img {
     text-align: center;
     padding: 0 150px;
     color: var(--color-text1);
-    top: 60px;
+    top: 40px;
 }
 
 .text h2 {
@@ -391,4 +391,17 @@ footer img {
     100% {
         margin-left: -300%;
     }
+}
+
+.CTAction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.CTAction img {
+    width: 125px;
 }
