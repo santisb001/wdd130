@@ -87,6 +87,7 @@ header nav {
 
 .column1 {
     display: flex;
+    padding: .5rem;
 
 }
 
@@ -194,6 +195,7 @@ form {
     flex-direction: column;
     margin: 0%;
     padding: 1rem;
+    width: 300px;
 
 }
 
@@ -317,7 +319,7 @@ footer img {
 
 .fffr {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .homebanner {
